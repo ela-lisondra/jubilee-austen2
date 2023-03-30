@@ -1,7 +1,14 @@
 /****** Global Styles ******/
+body {
+    font-family: "Source Sans Pro", sans-serif;
+    color: #5e5d5e;
+}
 
-
-
+.content-wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
 
 
 
@@ -9,11 +16,36 @@
 
 
 /****** Header Styles ******/
+h1 {
+    outline: 3px dotted red;
+    width: 300px;
+    float: left;
+    font-family: "Lora", serif;
+    font-size: 30px;
+    color: #757E54;
+    padding: 65px 0 65px 25px;
+}
 
+nav {
+    outline: 3px dotted red;
+    width: 800px;
+    float: right;
+    text-align: right;
+    padding: 75px 25px 75px 0;
+}
 
+nav ul li{
+    display: inline-block;
+    outline: 3px dotted red;
+}
 
-
-
+nav ul li a {
+    outline: 3px dotted red;
+    color: #727172;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0 40px; 
+}
 
 
 
