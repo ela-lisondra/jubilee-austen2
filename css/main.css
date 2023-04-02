@@ -54,7 +54,7 @@ nav ul li a {
     color: #727172;
     font-size: 18px;
     text-transform: uppercase;
-    padding: 0 40px; 
+    padding-left: 50px; 
 }
 
 header h2 {
@@ -132,3 +132,143 @@ header h2 {
 }
 
 /****** Contact Styles ******/
+#contact {
+    background-color: #F9E9E9;
+}
+
+#contact .content-wrapper {
+    
+    padding: 110px 0;
+}
+
+/* code block for the image container and NOT the image */
+#contact .contact-image {
+   
+    float: left;
+    width: 600px;
+}
+
+#contact #contact-img {
+    border: 12px solid #ffffff;
+    width: 500px;
+    height: 300px;
+    margin: 0 50px;
+    /* box-sizing property set to border-box value ensures that all 3 columns keep their width, even if padding and borders are added */
+    box-sizing: border-box;
+    
+}
+
+#contact .contact-info {
+    
+    float: left;
+    width: 600px;
+    padding-left: 100px;
+    box-sizing: border-box;
+}
+
+#contact h2 {
+   
+    font-family: "Lora", serif;
+    font-size: 36px;
+    font-weight: 600;
+    margin: 30px 0;
+}
+
+#contact h3 {
+    
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+#contact #email-header {
+   
+    margin-bottom: 5px;
+}
+
+#contact #socialmedia-header {
+    
+    margin: 20px 0 5px 0;
+}
+
+#contact #mailto-image {
+    padding-right: 10px;
+}
+
+#contact a {
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 36px;
+    color: #5e5d5e;
+}
+
+#contact ul {
+    
+    margin: 0;
+    padding-left: 0;
+}
+#contact ul li {
+    /* to display from vertical to horizontal */
+    display: inline-block;
+    list-style: none;
+}
+
+#contact ul img {
+    padding-right: 40px;
+    
+}
+
+
+/****** Prjects Page Header Styles ******/
+
+header.extra-hero {
+    background: #F9EFEF;
+
+}
+
+/****** Prjects Page Projects Styles ******/
+
+#projects {
+    /* outline: dotted 3px red; */
+    background: #f5f5f5;
+    text-align: center;
+}
+
+#projects .content-wrapper {
+    /* outline: dotted 3px red; */
+    padding: 115px 0;
+}
+
+
+#projects .project-list {
+      /* outline: dotted 3px red; */
+    float: left;
+    width: 300px;
+    padding: 0 50px;
+}
+
+#projects h2 {
+    font-family: "Lora", serif;
+    font-size: 36px;
+    padding-bottom:40px;
+}
+
+#projects h3 {
+  
+    font-size: 24px;
+    line-height: 36px;
+    margin: 30px 0 20px 0;
+}
+
+#projects p {
+    /* outline: dotted 3px red; */
+    font-size: 20px;
+    line-height: 40px;
+    text-align: left;
+}
+
+#projects img {
+    /* outline: dotted 3px red; */
+    width: 300px;
+    padding-bottom: 30px;
+}
